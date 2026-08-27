@@ -1,0 +1,6 @@
+@VehicleDiagnosticsDashboard.Api_HostAddress = http://localhost:5132
+
+GET {{VehicleDiagnosticsDashboard.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

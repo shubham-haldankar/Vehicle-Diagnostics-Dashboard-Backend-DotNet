@@ -1,6 +1,6 @@
 ﻿using VehicleDiagnosticsDashboard.Domain.Enums;
 
-namespace VehicleDiagnosticsDashboard.Application.Models.Dto
+namespace VehicleDiagnosticsDashboard.Application.Models.Dtos
 {
     public class DiagnosticLogSearchCriteria
     {

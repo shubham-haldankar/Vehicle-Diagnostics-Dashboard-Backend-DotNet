@@ -1,12 +1,10 @@
-﻿using VehicleDiagnosticsDashboard.Application.Models.Dto;
+﻿using VehicleDiagnosticsDashboard.Application.Models.Dtos;
 using VehicleDiagnosticsDashboard.Domain.Entities;
 
-namespace VehicleDiagnosticsDashboard.Application.Interfaces
+namespace VehicleDiagnosticsDashboard.Application.Interfaces;
+public interface IDiagnosticLogRepository
 {
-    public interface IDiagnosticLogRepository
-    {
-        Task AddAsync(DiagnosticLog diagnosticLog);
-
-        Task<IReadOnlyList<DiagnosticLog>> FindAsync(DiagnosticLogSearchCriteria filter);
-    }
+    Task AddAsync(DiagnosticLog diagnosticLog, CancellationToken cancellationToken = default);
+    Task<IReadOnlyList<DiagnosticLog>> FindAsync(DiagnosticLogSearchCriteria filter, CancellationToken cancellationToken = default);
 }
+

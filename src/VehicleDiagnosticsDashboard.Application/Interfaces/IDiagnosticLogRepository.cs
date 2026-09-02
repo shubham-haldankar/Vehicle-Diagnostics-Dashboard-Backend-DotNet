@@ -1,4 +1,4 @@
-﻿using VehicleDiagnosticsDashboard.Application.DTOs;
+﻿using VehicleDiagnosticsDashboard.Application.Models.Dto;
 using VehicleDiagnosticsDashboard.Domain.Entities;
 
 namespace VehicleDiagnosticsDashboard.Application.Interfaces
